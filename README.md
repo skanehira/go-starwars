@@ -30,7 +30,7 @@ docker run --rm -it skanehira/go-starwars
 $ go-starwars
 
 # options
-$ go-starwars
+$ go-starwars -h
 Usage of go-starwars:
   -s int
         speed, up speed by making it smaller (default 40)
