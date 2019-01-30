@@ -9,4 +9,4 @@ docker build -t skanehira/go-starwars .
 rm -rf ./go-starwars
 
 # push image to dockerr hub
-#docker push skanehira/go-starwars
+docker push skanehira/go-starwars
