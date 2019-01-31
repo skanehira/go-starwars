@@ -8,7 +8,7 @@ StarWars ascii animation written in Go.
 
 # Requirements
 - Go 1.11.4~  
-- github.com/gobuffalo/packr
+- [packr](https://github.com/gobuffalo/packr)
 
 # Installtion
 Use Go
