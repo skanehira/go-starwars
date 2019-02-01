@@ -24,7 +24,7 @@ var (
 func clear() {
 	// https://www.grapecity.com/developer/support/powernews/column/clang/047/page02.htm
 	fmt.Fprint(stdOut, "\x1b[2J")
-	fmt.Fprint(stdOut, "\x1b[0;0H")
+	fmt.Fprint(stdOut, "\x1b[1;1H")
 	stdOut.Flush()
 }
 
@@ -43,6 +43,8 @@ func main() {
 	var buffer string
 	var duration int
 	var i int
+
+	clear()
 
 	// read a line from embed text file
 	scanner := bufio.NewScanner(file)
