@@ -44,6 +44,8 @@ func main() {
 	var duration int
 	var i int
 
+	clear()
+
 	// read a line from embed text file
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
